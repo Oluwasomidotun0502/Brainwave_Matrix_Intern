@@ -1,15 +1,22 @@
 ## Brainwave Matrix Solution
 
 brainwave_matrix_intern/
-│
-├── index.html              # Main web page
-├── README.md               # This guide with detailed steps
-├── snapshots/              # Folder for snapshots of EC2, Python server, GitHub, and S3
-│   ├── ec2_ssh_terminal.png
-│   ├── python3_server.png
-│   ├── git_push_terminal.png
-│   ├── aws_s3_bucket_setup.png
-│   └── aws_static_hosting.png
+
+index.html              # Main web page
+
+README.md               # This guide with detailed steps
+
+snapshots/              # Folder for snapshots of EC2, Python server, GitHub, and S3
+
+ec2_ssh_terminal.png
+
+python3_server.png
+
+git_push_terminal.png
+
+aws_s3_bucket_setup.png
+
+aws_static_hosting.png
 
 
 ## Project Overview
@@ -30,7 +37,7 @@ Snapshots to verify each step
 
 This project serves as a record of the deployment process and demonstrates cloud hosting capabilities.
 
-1. AWS EC2 Instance Setup
+## 1. AWS EC2 Instance Setup
 
 Step 1: Launch EC2 Instance
 
@@ -60,7 +67,7 @@ ls -l
 
 Snapshot: snapshots/ec2_ssh_terminal.png
 
-2. Local Setup and Testing
+## 2. Local Setup and Testing
 
 Step 1: Navigate to project folder
 
@@ -79,7 +86,7 @@ http://localhost:8080
 
 Snapshot: snapshots/python3_server.png
 
-3. GitHub Repository Setup
+## 3. GitHub Repository Setup
 
 Step 1: Initialize Git repository
 
@@ -107,7 +114,7 @@ git push -u origin main --force
 
 Snapshot: snapshots/git_push_terminal.png
 
-4. AWS S3 Deployment
+## 4. AWS S3 Deployment
 
 Step 1: Create an S3 bucket
 
@@ -130,7 +137,7 @@ snapshots/aws_s3_bucket_setup.png
 
 snapshots/aws_static_hosting.png
 
-Step 4: Access live site
+## Step 4: Access live site
 https://brainwave-matrix-intern.s3.amazonaws.com/index.html
 
 
